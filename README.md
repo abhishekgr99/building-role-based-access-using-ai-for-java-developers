@@ -1,3 +1,8 @@
+# Developer Setup
+- To ensure everything works, run `mvn clean install` in the root directory.
+- To run the application, run `mvn exec:java -Dexec.mainClass="com.ll.App"` in the root directory. This should print out "Hello World!".
+
+
 # Building Role Based Access using AI for Java Developers
 This is the repository for the LinkedIn Learning course `Building Role Based Access using AI for Java Developers`. The full course is available from [LinkedIn Learning][lil-course-url].
 
