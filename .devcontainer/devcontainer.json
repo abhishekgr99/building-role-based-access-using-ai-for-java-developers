@@ -4,9 +4,8 @@
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "21",
-			"installMaven": "true",
-			"mavenVersion": "latest",
-			"installGradle": "false"
+			"INSTALLMAVEN": "true",
+			"MAVENVERSION": "latest"
 		}
 	},
 	// Configure tool-specific properties.
