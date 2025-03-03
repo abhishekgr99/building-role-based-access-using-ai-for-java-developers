@@ -1,11 +1,17 @@
+# Building Role Based Access using AI for Java Developers
+This is the repository for the LinkedIn Learning course `Building Role Based Access using AI for Java Developers`. The full course is available from [LinkedIn Learning][lil-course-url].
+
+![lil-thumbnail-url]
+
+## Course Description
+
+In this intermediate-level course, instructor Harit Himanshu shows you how to implement a comprehensive role-based access control (RBAC) system inspired by GitHub's permission model using Java, Spring Boot, MongoDB, and Docker. Starting with core domain modeling, learn how to design and implement both personal and organization account structures with their respective permission hierarchies, develop secure authentication flows and resource management APIs, and create sophisticated authorization mechanisms that handle complex scenarios like role inheritance and resource sharing within organizations. Along the way, leverage the power of GitHub Copilot to accelerate development and testing processes, while learning industry best practices for security implementations. By the end of this course, you'll be equipped with the skills you need to build and test a production-ready RBAC system at scale.
+
 # Developer Setup
 - To ensure everything works, run `mvn clean install` in the root directory.
 - To run the application, run `mvn exec:java -Dexec.mainClass="com.ll.App"` in the root directory. This should print out "Hello World!".
 
-
-# Building Role Based Access using AI for Java Developers
-This is the repository for the LinkedIn Learning course `Building Role Based Access using AI for Java Developers`. The full course is available from [LinkedIn Learning][lil-course-url].
-
+  
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -25,15 +31,9 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/building-role-based-access-using-ai-for-java-developers
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQGgdcuarTc-2g/learning-public-crop_675_1200/B4DZU_nMwgHIAY-/0/1740528996100?e=2147483647&v=beta&t=mpANNDzx3OeNVM_jFQEZZQaarf9biGmP3mArYg-iMfQ
 
